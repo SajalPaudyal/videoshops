@@ -21,3 +21,16 @@
   );
   margin-top: -40px;
 }
+
+.products {
+  clip-path: polygon(
+    0 40px,
+    calc(calc(50% - 85.78px) - 20px) 40px,
+    calc(50% - 20px) 0,
+    calc(calc(50% + 85.78px) - 20px) 40px,
+    100% 40px,
+    100% 100%,
+    0 100%
+  );
+  margin-top: -40px;
+}

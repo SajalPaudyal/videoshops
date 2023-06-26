@@ -10,7 +10,15 @@ export default {
         secondary: "#008751",
         white: "#ffffff",
       },
+      fontFamily:{
+        montserrat:"Montserrat, sans-serif",
+        syne: 'Syne, sans-serif'
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/src/assets/background.jpg')",
+      }
     },
   },
   plugins: [],
 };
+

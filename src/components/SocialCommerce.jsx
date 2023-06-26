@@ -29,9 +29,6 @@ export default function SocialCommerce() {
         </div>
       </div>
 
-      <div className="absolute w-28 h-20 left-20 -bottom-5 bg-white rotate-45 z-0">
-
-      </div> 
 
 
       <div className="h-screen bg-slate-200">

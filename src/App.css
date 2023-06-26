@@ -1,26 +1,23 @@
-.input-placeholder {
-    position: relative;
-  }
-  .input-placeholder input {
-    padding: 10px;
-    font-size: 25px;
-  }
-  .input-placeholder input:valid + .placeholder {
-    display: none;
-  }
-  
-  .placeholder {
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    bottom: 0;
-    height: 25px;
-    font-size: 25px;
-    left: 10px;
-    margin: auto;
-    color: #ccc;
-  }
-  
-  .placeholder span {
-    color: red;
-  }
+.top {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 40px),
+    calc(50% + 69.28px) calc(100% - 40px),
+    50% 100%,
+    calc(50% - 69.28px) calc(100% - 40px),
+    0 calc(100% - 40px)
+  );
+}
+.bottom {
+  clip-path: polygon(
+    0 0,
+    calc(50% - 0px - 69.28px) 0,
+    50% calc(40px + 0px),
+    calc(50% + 0px + 69.28px) 0,
+    100% 0,
+    100% 100%,
+    0 100%
+  );
+  margin-top: -40px;
+}

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className="flex flex-col justify-center items-center">
       <footer className="bg-white dark:bg-gray-900 max-w-screen-2xl w-full">
-        <div className=" w-full  p-4 py-6 lg:py-8 w-full">
+        <div className=" w-full p-4 py-6 lg:py-8 ">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 w-1/2">
               <a href="/" className="flex items-center">
